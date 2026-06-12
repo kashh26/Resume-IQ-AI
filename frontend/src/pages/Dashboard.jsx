@@ -18,7 +18,7 @@ function Dashboard() {
       formData.append("resume", file);
 
       const response = await axios.post(
-        "http://localhost:8000/upload-resume",
+        "https://resume-iq-ai.onrender.com/upload-resume",
         formData
       );
 
@@ -35,7 +35,7 @@ function Dashboard() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:8000/analyze",
+        "https://resume-iq-ai.onrender.com/analyze",
         {
           resumeText,
           jobDescription,
@@ -53,7 +53,7 @@ function Dashboard() {
   const generateResume = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:8000/generate-resume",
+        "https://resume-iq-ai.onrender.com/generate-resume",
         {
           resumeText,
           jobDescription,
@@ -71,7 +71,7 @@ function Dashboard() {
   const generateQuestions = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:8000/interview-questions",
+        "https://resume-iq-ai.onrender.com/interview-questions",
         {
           resumeText,
           jobDescription,
