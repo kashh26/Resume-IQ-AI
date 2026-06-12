@@ -3,13 +3,13 @@
 AI-powered Resume Analyzer that helps users improve resumes, increase ATS scores, identify missing skills, generate AI-enhanced resumes, and prepare for interviews.
 
 //Features
-PDF Resume Upload & Parsing
-ATS Score Analysis
-Missing Skills Detection
-AI Resume Improvement Suggestions
-AI-Generated Resume Enhancement
-Personalized Interview Questions
-Login & Signup System
+* PDF Resume Upload & Parsing
+* ATS Score Analysis
+* Missing Skills Detection
+* AI Resume Improvement Suggestions
+* AI-Generated Resume Enhancement
+* Personalized Interview Questions
+* Login & Signup System
 
 //Tech Stack
 
